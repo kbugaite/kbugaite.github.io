@@ -1,0 +1,78 @@
+.flexbox {
+    display:flex;
+    padding: 50px 0px 20px 25px;
+}
+.product-picture {
+    flex-direction: row;
+    display: flex;
+    width: auto;
+    height:auto;
+    vertical-align: middle;
+    min-width: 200px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.picture {
+    width: 100%;
+
+    object-fit:scale-down;
+    margin: auto;
+}
+.description {
+    flex-direction: row;
+    flex: 1fr;
+    padding: 10px 0px 10px 0px;
+    min-width: 300px;
+    padding-right: 70px;
+}
+.title {
+    color: #f38181;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 700;
+    font-size: 165%;
+    flex-direction: column;
+}
+.product-paragraph {
+flex-direction: column;
+color: #3b4754;
+font-family: 'KoHo', sans-serif;
+font-size: 110%;
+text-align: justify;
+padding-bottom: 10px;
+}
+.table {
+
+    table-layout: auto;
+    font-family: 'KoHo', sans-serif;
+    font-size: 90%;
+    font-weight: 400;
+    color: #3b4754;
+    width: 1fr;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: center;
+    overflow: hidden;
+    flex: 1 1 150px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 1fr;
+    border: 1px solid #d7d7d7;
+}
+th{
+    background-color: #cacaca;
+    color: black;
+}
+.product-paragraph-footnote {
+    color: #3b4754;
+    font-family: 'KoHo', sans-serif;
+    font-size: 90%;
+    padding-top: 5px;
+    }
+    span {
+        color:#f38181;
+        font-weight: 700;
+        font-size: 110%;
+    }
