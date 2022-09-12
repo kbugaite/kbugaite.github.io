@@ -1,0 +1,96 @@
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  padding-top: 73px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  padding-bottom: 10px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  padding-bottom: 10px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.heading{
+    background-color: darkgrey;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 300px;
+    left: 30px;
+    padding: 8px;
+    width: 600px;
+    border-radius: 5px;
+}
+h1{
+    font-family: monospace;
+    font-weight: bold;
+    color: #f38181;
+    font-size: 80px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+}
+.intro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    margin-bottom: 15px;
+}         
+#register-btn, #calorie-btn{
+    background-color: cornflowerblue;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 12px 28px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 45%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+#register-btn:hover, #calorie-btn:hover{
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+    
+}
+#register-btn{
+    background-color: rgb(215, 195, 79);
+}
+#register-link:link{
+    color: aliceblue;
+    text-decoration: none;
+}
+#register-link:visited{
+    background-color: coral;
+}

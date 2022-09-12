@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@200;300;400;500&family=Sarabun:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Superfoods</title>
+</head>
+<body>
+        <header>
+            <nav class="navigationBar">
+                <div class="navBar">
+                  <a href="index.html" class="nav">Home</a>
+                  <a href="page2.html" class="nav">Fruit & Vegetables</a>
+                  <a href="page2.html" class="nav">Meat & Fish</a>
+                  <a href="page2.html" class="nav">Dairy</a> 
+                  <a href="login.html" class="nav">Calorie Calculator</a>   
+                </div>
+        <form class="topNav">
+            <button class="sign-btn">
+                <a href="register.html" class ="button">
+                    Sign up
+                </a>
+            </button>
+            <button class="log-btn">
+                <a href="login.html" class ="button">
+                    Log in
+                </a></button> 
+                <input class="search" type="search" placeholder="Search...🔎">   
+            </form>
+    </nav>
+        </header>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="images/superfoods.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="images/carousel2.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="images/carousel1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/carousel3.jpg" style="width:100%">
+              </div>
+
+            <div class="mySlides fade">
+                <img src="images/carousel4.jpg" style="width:100%">
+              </div>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+          </div>
+
+    <div class="heading">
+        <h1>SUPERFOODS</h1>
+        <p class="intro">Eating a healthy, balanced diet is an important part of maintaining good health, and can help you feel your best. 
+           This means eating a wide variety of foods in the right proportions and consuming the right amount of food 
+           and drink to achieve and maintain a healthy body weight.</p>
+       <form id="intro-btn"> 
+        <button id="register-btn">
+            <a href="register.html" id="register-link">Register</a>
+            </button>
+        <button id="calorie-btn">Calorie Calculator</button>
+       </form>
+    </div>
+    <hr>
+      <footer>
+    <div class="footer">
+        <div class="socials">
+                <a href="https://en-gb.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/?lang=en-gb" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+        </div>
+        <div class="superfoods"><a href="index.html" class="footer">
+            <h4>Superfoods</h4></a>
+            <br>
+            <div class="copyright">©️Copyright 2022</div>
+        </div> 
+            <p class="creators"> Created by Amira<br>
+                and Kristina</p>
+            </div>
+    </footer>
+    <script src="index.js"></script>
+    </body>
+</html>

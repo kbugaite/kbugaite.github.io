@@ -1,0 +1,185 @@
+/* Main page */
+#fruitVeg, #meatFish, #dairy {
+    text-align: center;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 700;
+    font-size: 150%;
+    padding-top: 3em;
+}
+#chicken, #cheese{
+    width:470px;
+}
+.fruitSubheading, .meatSubheading, .dairySubheading {
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+    font-size: 100%;
+    font-weight: 300;
+   
+}
+.fruitVegImages, .meatFishImages, .dairyImages {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.potato, .broccoli, .avacado, .banana, .cherry, .blueberry{
+    flex: 25%;
+    padding: 5px;
+}
+.salmon, .mackerel, .bison, .chicken, .yoghurt, .milk, .egg, .cheese{
+    flex:33.33%;
+    padding:5px;
+}
+p{
+    font-family: 'KoHo', sans-serif;
+    font-size: 110%;
+    text-align: justify;
+    font-weight: 300;
+    padding: 5px;
+}
+a.products {
+    text-decoration: none;
+    color: white
+}
+a.products1 {
+    text-decoration: none;
+    color: black;
+}
+a.products:hover {
+    text-decoration:underline;
+    color: #fce38a;
+}
+a.products1:hover {
+    text-decoration:underline;
+    color: #f38181;
+}
+.title1{
+    background-color: coral;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+.title2{
+    background-color: rgb(37, 111, 43);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 12px;
+    text-align: center; 
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+.title3{
+    background-color: rgb(25, 104, 31);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+.title4{
+    background-color: rgb(228, 234, 60);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 12px;
+    text-align: center; 
+    font-weight: 700;
+    letter-spacing: 0.05em;   
+}
+.title5{
+    background-color: rgb(133, 22, 22);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+.title6{
+    background-color: rgb(51, 19, 92);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+.title7{
+    background-color: coral;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+.title8{
+    background-color: rgb(88, 91, 88);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+.title9{
+    background-color: rgb(200, 96, 80);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.05em; 
+}
+.title10{
+    background-color: rgb(252, 198, 209);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.05em;    
+}
+.title11{
+    background-color: rgb(10, 10, 10);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+.title12{
+    background-color: rgb(247, 246, 246);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+.title13{
+    background-color: rgb(244, 174, 76);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+.title14{
+    background-color: rgb(252, 168, 22);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+hr {
+    margin-top: 6em;
+}

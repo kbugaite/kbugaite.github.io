@@ -1,0 +1,73 @@
+/* Nav bar*/
+.navigationBar{
+    background-color: #eaffd0;
+    overflow: hidden;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+.navBar{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+  margin-left: 3em;
+
+}
+.navBar a:hover {
+    background-color: #fce38a;
+    color: black;
+}
+.navBar a.active {
+    background-color: #eaffd0;
+    color: white;
+}
+.topNav{
+    float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+.sign-btn, .log-btn{
+border: none;
+padding: 8px;
+border-radius: 5px;
+width: 50px;
+margin-right: 15px;
+}
+a.nav {
+    color: white;
+    text-decoration: none;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 700;
+    font-size: 140%;
+    color: #3b4754;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.sign-btn{
+    background-color: #fce38a;
+    padding: 10px;
+    width: 50px;
+}
+.log-btn{
+background-color: #f38181;
+margin-right: 3em;
+margin-left: 0.5em;
+}
+a.button {
+    color: white;
+    text-decoration: none;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 700;
+    font-size: 95%;
+    letter-spacing: 0.05em;
+
+}
+.search{
+padding: 3px;
+font-family: 'Sarabun', sans-serif;
+}

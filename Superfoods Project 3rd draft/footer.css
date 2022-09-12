@@ -1,0 +1,79 @@
+/* Footer */
+.footer {
+    display:flex;
+    flex-direction:row-reverse;
+}
+.fa {
+    padding: 16px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 7px;
+    border-radius: 50%;
+    float: right;
+    margin-right:10px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    width: 60px;
+    height: 60px;
+  }
+  .fa-instagram {
+    background:linear-gradient(#e95950,#feda75, #d62976,#962fbf, #4f5bd5);
+    color: white;
+    width: 60px;
+    height: 60px;
+  }
+  .superfoods{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 700;
+  }
+  h4 {
+    color: #f38181;
+    font-size: 150%;
+    align-content: center;
+    padding-right: 0.5em;
+    margin-top: 0.5em;
+  }
+  .copyright {
+    color: #f38181;
+    font-size: 80%;
+    font-weight: 300;
+    text-align: center;
+    align-content: center;
+    padding-right: 1em;
+    margin-top: -3em;
+  }
+  .creators{
+    font-family: 'KoHo', sans-serif;
+    font-size: 100%;
+    font-weight: 300;
+    flex: 25%;
+    padding-top: 1em;
+    padding-left: 2em;
+  }
+  .socials{
+    flex: 25%;
+    padding-top: 1em;
+    padding-right: 1.5em;
+  }
+  a.footer {
+    text-decoration: none;
+    color: #f38181;
+  }

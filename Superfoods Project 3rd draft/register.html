@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@200;300;400;500&family=Sarabun:wght@200;400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Register to Superfoods</title>
+</head>
+<body>
+    <header>
+        <nav class="navigationBar">
+            <div class="navBar">
+              <a href="index.html" class="nav">Home</a>
+              <a href="page2.html" class="nav">Fruit & Vegetables</a>
+              <a href="page2.html" class="nav">Meat & Fish</a>
+              <a href="page2.html" class="nav">Dairy</a> 
+              <a href="     " class="nav">Calorie Calculator</a>   
+            </div>
+    <form class="topNav">
+        <button class="sign-btn">
+            <a href="register.html" class ="button">
+                Sign up
+            </a>
+        </button>
+        <button class="log-btn">
+            <a href="login.html" class ="button">
+                Log in
+            </a></button> 
+            <input class="search" type="search" placeholder="Search...🔎">   
+        </form>
+</nav>
+    </header>
+<div>
+    <div class="title">
+        <h1>SIGN UP TO SUPERFOODS</h1>
+    </div>
+    <div class="Buttons">
+    <div class="facebook">
+        <a href='https://www.facebook.com/'>
+        <button class="facebook">SIGN UP WITH FACEBOOK</button>
+        </a>
+    </div>
+    <br>
+    <div class="twitter">
+        <a href='https://twitter.com/'>
+        <button class="twitter">SIGN UP WITH TWITTER</button>
+    </a>
+    </div>
+    <br>
+    <div class="google">
+        <a href='https://accounts.google.com/ServiceLogin/signinchooser'>
+        <button class="google">SIGN UP WITH GOOGLE+</button>
+    </a>
+    </div>
+    <br>
+    <div class="instagram">
+        <a href='https://www.instagram.com/'>
+        <button class="instagram">SIGN UP WITH INSTAGRAM</button>
+    </a>
+    </div>
+    <br>
+    </div>
+    <br>
+</div> 
+<div class ="separator">
+    <div class="line-left">
+        <hr class="left">
+    </div>
+    <div class="or">
+        <table><tr><th>OR</th></tr></table>
+    </div>
+    <div class ="line-right">
+        <hr class="right">
+    </div>
+</div>
+<div class="signUpForm">
+    <form action="/action_page.php">
+        <fieldset>
+        <div class="form">
+          <legend id="signUp">Sign-up to Superfoods here:</legend>
+          <br>
+          <div class="text-container1">
+            <div class="field1">
+                <input type="text" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="field2">
+                 <input type="text" id="createPassword" name="createPassword" placeholder="Create a password">
+            </div>
+        </div>
+          <br>
+          <div class="text-container2">
+            <div class="field1">
+                <input type="text" id="confirmEmail" name="confirmEmail" placeholder="Confirm your email">
+            </div>
+            <div class="field2">
+                <input type="text" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password">
+            </div>
+        </div>
+          <br>
+          <div class="text-container3">
+            <div class="field3">
+                <input type="text" id="chooseUsername" name="chooseUsername" placeholder="Choose your username">
+            </div>
+          <div class="genderField">
+            <h2>Your gender:</h2>
+                <label for="gender" class="radio">
+                    <input type="radio" id="female" name="gender" value="Female" class ="radio_input" value="Female">
+                    <span class="radio_radio"></span>Female
+                </label>
+                <label for="gender" class="radio">
+                    <input type="radio" id="male" name="gender" class ="radio_input" value="Male">
+                    <span class="radio_radio"></span>Male
+                </label>
+                <label for="gender" class="radio">
+                    <input type="radio" id="other" name="gender" class ="radio_input" value="Other">
+                    <span class="radio_radio"></span>Other
+                </label>
+          </div>
+        </div>
+          <br>
+          <div class="text-container4">
+            <div class="field1">
+                <input type="text" id="firstName" name="firstName" placeholder="First Name">
+            </div>
+          <div class="field2">
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+          </div>
+        </div>
+          <br>
+          <div class="text-container5">
+            <div class="field1">
+                <input type="text" id="firstAddress" name="firstAddress" placeholder="First line of address">
+             </div>
+             <div class="field2">
+                <input type="text" id="city" name="city" placeholder="City/town">
+            </div>
+        </div>
+          <br>
+          <div class="text-container6">
+            <div class="field1">
+                <input type="text" id="secondAddress" name="secondAddress" placeholder="Second line of address">
+            </div>
+            <div class="field2">
+                <input type="text" id="postcode" name="postcode" placeholder="Post code">
+            </div>
+        </div>
+          <br>
+          <div class="text-container7">
+            <div class="field3">
+                <input type="text" id="country" name="country" placeholder="Country">
+            </div>
+            <div class="dateForm">
+                <input id="date" type="date">
+            </div>
+        </div>
+          <br>
+          <div class="checkbox-container">
+          <input type="checkbox"  id="terms">
+            <label class ="checkbox" for="terms">
+            By ticking this, you agree to have read and accepted our Terms & Conditions.
+        </label>
+        </div>
+          <div class="checkbox-container">
+            <input type="checkbox" id ="newsletter">
+          <label class ="checkbox" for="newsletter">
+          Tick here if you would like to subscribe to our newsletter.
+        </label>
+        </div>
+          <br>
+          <div class="submit">
+          <input id ="submit" type="submit" value="Submit" onclick="myFunction()">
+        </div>
+        </div>
+        </fieldset>
+      </form>
+</div>
+<hr>
+<footer>
+    <div class="footer">
+        <div class="socials">
+                <a href="https://en-gb.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/?lang=en-gb" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+        </div>
+        <div class="superfoods"><a href="index.html" class="footer">
+            <h4>Superfoods</h4></a>
+            <br>
+            <div class="copyright">©️Copyright 2022</div>
+        </div> 
+            <p class="creators"> Created by Amira <br>
+                and Kristina</p>
+            </div>
+    </footer>
+<script src="index.js">
+    function myFunction() {
+    alert("Thank you for signing up, we will be in touch soon!");
+  }
+</script>
+</body>
+</html>
